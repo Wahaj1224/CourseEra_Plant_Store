@@ -1,0 +1,62 @@
+.landing {
+  background-image: url('./landingpg_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color:  #46ad4a;
+}
+.overlay {
+  padding: 2rem;
+}
+
+
+
+
+.landing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.btn{
+
+    margin-left: 180px;
+}
+
+.overlay p {
+  font-size: 1.0rem; 
+  margin-bottom: 30px;
+  color: #2e8131;
+}
+
+.shop-description {
+  text-align: center;
+  
+  max-width: 500px;
+  
+}
+
+
+.overlay button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+}
+
+.overlay button:hover {
+  background-color: #45a049;
+}
